@@ -9,6 +9,19 @@ source env/bin/activate
 pip3 install -r requirements.txt
 ```
 
+To run without any issue, set the following env. variables in the root folder :
+- JOURNEY_API_URL = "https://journey-service-int.api.sbb.ch"
+- CLIENT_SECRET = "..."
+- CLIENT_ID = "..."
+- SCOPE = "..."
+- TOKEN_URL = "..."
+- OPEN_ROUTE_API_KEY = "..."
+- OPEN_ROUTE_API_URL = "https://api.openrouteservice.org"
+
+and the following env. variables in the `cff-client` folder:
+- REACT_APP_PLACE_API_URL = "http://127.0.0.1:5000/v1/places/by-name"
+- REACT_APP_TRIPS_API_URL = "http://127.0.0.1:5000/v1/trips/by-origin-destination"
+
 ### Dataset
 
 Dataset from https://opentransportdata.swiss/en/dataset/parking-facilities. Note it is not exactly the one provided initially in the challenge.
