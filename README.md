@@ -37,7 +37,7 @@ To client the client, go in the client directory (`cd cff-client`) and run the f
 - `npm i`
 - `npm start`
 
-Connect to the client on your browser via `https://localhost:3000`. This will pop a UI with which you will be able to interact.
+Connect to the client on your browser via `http://localhost:3000`. This will pop a UI with which you will be able to interact.
 
 &rarr; Be sure to have all the required libraries in order for the code to run smoothly as well `node.js` installed on your computer.
 
